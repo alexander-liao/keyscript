@@ -1,0 +1,2 @@
+LOOP 100 1
+PRINT HI

@@ -1,0 +1,12 @@
+PRINT Please place the cursor below this line\n---------------------------------------\n
+DELAY 3 3000
+SEQUENCE 10 10 32
+TYPE 10 10 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+SEQUENCE 10 10 10
+INPUT
+UNESCAPE \s!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+SUBTRACT
+PRINT
+PRINT \n
+SLEEP 1000
+QUIT
